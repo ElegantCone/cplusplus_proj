@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Executable>C:\Users\Катя\source\repos\TritsetLast\Debug\SampleTest.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="TestCaseName.TestName" Duration="1" />
+    <TestDuration Test="MemoryTests.ConstructorAllocationTest" Duration="1" />
+    <TestDuration Test="MemoryTests.UnknownOutOfBound" Duration="1" />
+    <TestDuration Test="MemoryTests.ComparingOutOfBound" Duration="1" />
+    <TestDuration Test="MemoryTests.OutOfBoundAllocation" Duration="103" />
+    <TestDuration Test="MemoryTests.ShrinkMemoryFree" Duration="124" />
+    <TestDuration Test="MemoryTests.TritOperationAllocation" Duration="1" />
+    <TestDuration Test="TritOperationTests.OrTest" Duration="1" />
+    <TestDuration Test="TritOperationTests.AndTest" Duration="1" />
+    <TestDuration Test="TritOperationTests.NotTest" Duration="1" />
+    <TestDuration Test="OtherFunctionsTests.CardinalityTest" Duration="1" />
+    <TestDuration Test="OtherFunctionsTests.TrimTest" Duration="1" />
+    <TestDuration Test="OtherFunctionsTests.LenTest" Duration="1" />
+    <TestDuration Test="HashFunctionTests.TritHashTest" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>
